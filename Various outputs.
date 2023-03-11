@@ -34,3 +34,40 @@ at_home     0.149367
 teacher     0.146835
 health      0.086076
 Name: Mjob, dtype: float64
+
+
+
+
+
+address	absences	Mjob	Fjob	math_grade
+0	U	6	at_home	teacher	6
+1	U	4	at_home	other	6
+2	U	10	at_home	other	10
+3	U	2	health	services	15
+4	U	4	other	other	10
+address	absences	Mjob	Fjob	math_grade
+count	395	395.0	395	395	395.0
+unique	2	nan	5	5	nan
+top	U	nan	other	other	nan
+freq	307	nan	141	217	nan
+mean	nan	5.708860759493671	nan	nan	10.415189873417722
+std	nan	8.00309568710818	nan	nan	4.5814426109978434
+min	nan	0.0	nan	nan	0.0
+25%	nan	0.0	nan	nan	8.0
+50%	nan	4.0	nan	nan	11.0
+75%	nan	8.0	nan	nan	14.0
+max	nan	75.0	nan	nan	20.0
+ 
+Mjob
+other	141
+services	103
+at_home	59
+teacher	58
+health	34
+Mjob
+other	0.3569620253164557
+services	0.2607594936708861
+at_home	0.14936708860759493
+teacher	0.1468354430379747
+health	0.08607594936708861
+ 
